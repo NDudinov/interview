@@ -1,0 +1,38 @@
+Даны 3 таблицы
+
+TABLE Author:
+ID          NAME
+1           A. Pushkin
+2           M. Lermontov
+3           I. Fleming
+4           R. Sabatini
+5           N. Gogol
+
+TABLE Book:
+ID          AUTHOR_ID               NAME
+1           1                       E. Onegin
+2           1                       Dubrovskiy
+3           2                       A Hero of Our Time
+4           3                       Casino Royal
+5           4                       Captain Blood
+6           5                       Revisor
+7           5                       Dead souls
+
+TABLE Price:
+ID          BOOK_ID                 PRICE
+1           1                       100
+2           2                       200
+3           3                       100
+4           4                       400
+5           5                       300
+6           6                       50
+7           7                       200
+
+Задание 1:
+Выберете на экран содержимое колонки NAME таблицы AUTHOR
+
+Задание 2:
+Выведите на экран все книги автора N.Gogol
+
+Задание 3:
+Выведите на экран таблицу с колонками Название книги, Автор, Цена
